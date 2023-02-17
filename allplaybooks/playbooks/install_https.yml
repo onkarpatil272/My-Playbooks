@@ -1,0 +1,15 @@
+---
+- name: Install and start a service
+  hosts: all
+  become: true
+  tasks:
+    - name: Install a service
+      apt:
+        name: httpd
+        state: present
+
+    - name: Start a service
+      service:
+        name: httpd
+        state: started
+        enabled: yes

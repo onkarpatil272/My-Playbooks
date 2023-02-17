@@ -1,0 +1,12 @@
+---
+- name: create a user
+  hosts: all
+  become: true
+  tasks:
+    - name: creating user
+      user:
+        username: Patil
+        password: Onkar@123
+        path: /home/patil
+        state: present
+

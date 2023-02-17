@@ -1,0 +1,9 @@
+---
+- name: create a file
+  hosts: all
+  become: true
+  tasks:
+    - name : create a directory
+      file:
+        path: /home/onkar/dire3
+        state: directory

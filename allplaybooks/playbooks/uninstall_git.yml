@@ -1,0 +1,9 @@
+---
+- name: my test palybook
+  hosts: all
+  become: true
+  tasks:
+    - name: uninstall git
+      yum:
+        name: git
+        state: absent

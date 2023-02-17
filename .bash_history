@@ -1,0 +1,332 @@
+yum install tree -y
+yum update -y
+touch file1
+ls
+exit
+yum install -y
+visudo sudoers
+visudo
+exit
+sudo yum install tree -y
+vi /etc/ssh/sshd_config
+exit
+ssh onkar@ip-172-31-14-107
+ssh onkar@ip-172.31.14.107
+servie sshd relaod
+servie sshd reload
+service sshd reload
+exit
+ssh onkar@ip-172-31-5-90
+ssh onkar@ip-172-31-14-107
+ssh-keygen
+ls -a
+cd .ssh/
+ls -a
+ssh-copy-id onkar@ip-172-31-5-90
+ssh onkar@ip-172-31-5-90
+ssh-copy-id onkar@ip-172-31-14-107
+ssh onkar@ip-172-31-14-107
+ls /etc/ansible
+vi /etc/ansible/hosts
+sudovi /etc/ansible/hosts
+sudo vi /etc/ansible/hosts
+ansible all -- lists-host
+sudo vi etc/ansible/ansible.cfg
+ls /etc/ansible
+sudo vi /etc/ansible/ansible.cfg
+ansible webservers --list-hosts
+ansible webservers--list-hosts
+sudo vi /etc/ansible/hosts
+ansible webservers--list-hosts
+ansible all --list-hosts
+ansible webserver[0] --list-hosts
+ansible webservers[0] --list-hosts
+ansible webservers[1] --list-hosts
+ansible all -m command -a "hostsname -i"
+sudo vi /etc/ansible/amsible.cfg
+sudo vi /etc/ansible/ansible.cfg
+ansible all -m command -a "hostsname -i"
+ansible all -m command -a "hostsname-i"
+ansible all -m command -a "hostname -i"
+ansible alll -m command -a "ls"
+ansible all -m command -a "ls"
+ansible all -m command -a "ls -la"
+ansible -m command -a "touch testfile"
+ansible all -m command -a "touch testfile"
+sudo vi /etc/ansible/ansible.cfg
+ansible all -m command -a "touch testfile"
+ansible all -m commad -a "ls"
+ansible all -m command -a "ls"
+ansible webserver[o] -m command -a "touch file5"
+ansible webservers[0] -m command -a "touch file5"
+ansible webservers[0] -m command -a "ls"
+ansible -m command -a "mkdir /home/demodir" -b
+ansible -m command -a sudo "mkdir /home/demodir" -b
+ansible all --lists-hosts
+ansible all--lists-hosts
+ansible allb--lists-host
+ansible allb--lists-hosts
+ansible all --lists-hosts
+ansible webservers --lists-hosts
+ansible webservers --list-hosts
+ansible all  --list-hosts
+ansible all -m command -a "sudo mkdir"
+ansible all -m command -a "sudo mkdir /home"
+ansible all -m command -a "sudo mkdir /home" -b
+ansible all -m command -a "ls"
+ansible all -m command -a "sudo mkdir demo /home"
+ansible all -m command -a "sudo mkdir demo"
+ansible all -m command -a "yum install httpd -y" -b
+ansible -m command -a "yum git" -b
+ansible all -m command -a "yum git" -b
+ansible all -m command -a "yum install git" -b
+ansible all -m copy -a "src="file1 dest= /home/onkar" -b
+
+hiii
+how are you
+
+ls
+ansible all -m copy -a "src="file1 dest= /home/onkar" -b
+
+hiii
+how are you
+
+
+
+touch file6
+
+ansible all -m copy -a "src="file6 dest= /home/onkar" -b
+
+
+
+
+ansible all -m service -a "name=httpd state=started" -b
+ansible all -m service -a "pkg=git state=present" -b
+ansible all -m service -a "pkg=docker state=present" -b
+ansible all -m user  -a "name=omi state=present" -b
+ansible all -m user -a "name=omi state=absent" -b
+ansible webservers[0] -m yum -a "name=docker state=present" -b
+ansible all -m "which docker: -b
+ansible all -m "which docker" -b
+
+ansible webservers[0] -m yum -a "name=docker state=present" -b
+ansible all -m "which docker" -b
+ansible all -a "which docker" -b
+vi create_file.yml
+ansible-playbook create_file.yml
+vi create_file.yml
+ansible-playbook create_file.yml
+vi create_dire.yml
+ansible-playbook 
+ansible-playbook create_dire.yml
+ansible-playbook --check
+ansible-playbook create_dire.yml --check
+vi create_dire.yml
+ansible-playbook create_dire.yml
+vi create_user.yml
+ansible-playbook create_user.yml
+vi create_user.yml
+ansible-playbook create_user.yml
+vi create_user.yml
+ansible-playbook create_user.yml
+vi create_user.yml
+vi uninstall_git.yml
+ansible--playbook uninstall_git.yml --check
+ansible--playbook uninstall_git.yml
+ansible-playbook uninstall_git.yml --check
+vi uninstall_git.yml
+ansible-playbook uninstall_git.yml --check
+ansible-playbook uninstall_git.yml
+vi install_git.yml
+ansible-playbook install_git.yml
+vi install_git.yml
+ansible-playbook install_git.yml
+vi install_git.yml
+ansible-playbook install_git.yml
+vi install_git.yml
+ansible-playbook install_git.yml
+ansible -m command -a "which git" -b
+ansible all -m command -a "which git" -b
+vi install_https.yml
+ansible-playbook install_https.yml
+vi install_https.yml
+ansible-playbook install_https.yml
+vi install_https.yml
+ansible-playbook install_https.yml
+ansible-playbook install_https.yml --check
+vi install_https.yml
+ansible-playbook install_https.yml
+vi install_https.yml
+ansible-playbook install_https.yml
+vi install_https.yml
+ansible-playbook install_https.yml
+vi install_https.yml
+ansible-playbook install_https.yml
+vi install_https.yml
+ansible-playbook install_https.yml
+vi install_https.yml
+ansible-playbook install_https.yml
+vi install_https.yml
+ansible-playbook install_https.yml
+vi install_httpd.yml
+ansible-playbook install_httpd.yml
+vi install_httpd.yml
+ansible-playbook install_httpd.yml
+ansible all -m command -a "which httpd" -b
+vi install_httpd_handler.yml
+ansible-playbook install_httpd_handler.yml
+vi install_httpd_handler.yml
+ansible-playbook install_httpd_handler.yml
+ansible-playbook install_httpd.yml
+cat install_httpd.yml
+vi install_httpd_handler.yml
+ansible-playbook install_httpd_handler.yml
+vi install_httpd_handler.yml
+ansible-playbook install_httpd_handler.yml
+vi install_httpd_handler.yml
+ansible all -m command -a "sudo remove httpd"
+vi uninstall_httpd.yml
+ansible-playbook uninstall_httpd.yml
+vi uninstall_httpd.yml
+ansible-playbook uninstall_httpd.yml
+vi uninstall_httpd.yml
+ansible-playbook uninstall_httpd.yml
+vi uninstall_httpd.yml
+ansible-playbook uninstall_httpd.yml
+cat install_httpd.yml
+vi install_https.yml
+ansible all -m command -a "remove httpd"
+vi install_http_when.yml
+ansible-playbook install_http_when.yml
+vi install_http_when.yml
+ansible-playbook install_http_when.yml
+ansible all -m yum -a "pkg=httpd state=absent" -b
+ansible-playbook install_http_when.yml
+vi install_http_when.yml
+ansible-playbook install_http_when.yml
+vi install_http_when.yml
+ansible-playbook install_http_when.yml
+vi install_http_when.yml
+ansible-playbook install_http_when.yml
+vi install_http_when.yml
+ansible-playbook install_http_when.yml --check
+vi multiple.ym
+vi multiple.yml
+ansible-playbook multiple.yml
+vi install_http_when.yml
+ansible-playbook install_http_when.yml
+vi install_http_when.yml
+ansible-playbook install_http_when.yml
+vi install_http_when.yml
+ansible all -m setup
+vi var.yml
+ansible-playbook var.yml
+vi var.yml
+ansible-playbook var.yml
+vi var.yml
+ansible-playbook var.yml
+vi var.yml
+ansible-playbook var.yml
+vi var.yml
+ansible-playbook var.yml
+vi var_o.yml
+vi user.yml
+ansible-playbook var_o.yml
+vi var_o.yml
+ansible-playbook var_o.yml
+vi var_o.yml
+ansible-playbook var_o.yml
+vi install_httpd.yml
+vi install_httpd_handler.yml
+ansible-playbook install_httpd_handler.yml
+vi install_httpd_handler.yml
+ansible-playbook install_httpd_handler.yml
+vi install_httpd_handler.yml
+ansible-playbook install_httpd_handler.yml
+vi install_httpd_handler.yml
+ansible-playbook install_httpd_handler.yml
+ansible all -m command -a "sudo yum httpd state=absent" -b
+ansible all -m command -a "sudo yum uninstall httpd state=absent" -b
+ansible all -m command -a "yum uninstall httpd -y" -b
+ansible all -m command -a "pkg=httpd state=absent" -b
+ansible all -m yum -a "pkg=httpd state=absent" -b
+vi httpd_when.yml
+ansible-playbook httpd_when.yml
+vi httpd_when.yml
+ansible-playbook httpd_when.yml
+ls
+vi tomcat_setup.yml
+cat tomcat_setup.yml
+vi tomcat_setup.yml
+ansible-playbook tomcat_setup.yml
+vi tomcat_setup.yml
+ansible-playbook tomcat_setup.yml
+vi tomcat_setup.yml
+ansible-playbook tomcat_setup.yml
+vi tomcat_setup.yml
+ansible-playbook tomcat_setup.yml
+vi tomcat_setup.yml
+ansible-playbook tomcat_setup.yml
+vi tomcat_setup.yml
+ansible-playbook tomcat_setup.yml
+vi tomcat_setup.yml
+ansible-playbook tomcat_setup.yml
+vi tomcat_setup.yml
+ls
+ansible-galaxy init setup-apache-role
+ls
+cd /setup-apache-role
+cd setup-apache-role
+ls
+tree
+rm -rf meta
+ls
+rm -rf tests
+rm -rf vars
+rm -rf README.md
+tree
+rm -rf defaults
+rm -rf templates
+tree
+vi tasks/main.yml
+vi handlers/main.yml
+cp ../index.html files/
+cd.. tree
+cd ... /tree
+cd../ls
+cd ..ls
+cd.. ls
+cd..
+cd ..
+ls
+vi index.html
+cd setup-apache-role
+tree
+cd ../index.html files/
+cd //
+ls
+cd ..
+ls
+cd ..
+cd tmp/
+ls
+cd ..
+cd root/
+cd hoe=me/
+cd home/
+ls
+cd boot/
+cd boot
+cd bon
+cd bin
+cd /bin
+ls
+ls
+cat tomcat_setup.yml
+cat install_httpd_handler.yml
+cat install_httpd.yml 
+ls
+cat install_https.yml
+cat install_httpd_handler.yml
+ls
+cat tomcat_setup.yml

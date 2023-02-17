@@ -1,0 +1,9 @@
+---
+- name: my task
+  hosts: all
+  become: true
+  tasks:
+    - name: install packages
+      yum:
+        name: ['git' , 'make' , 'gcc' , 'tree']
+        state: installed
