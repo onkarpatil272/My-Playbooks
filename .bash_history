@@ -462,3 +462,45 @@ git push -u origin main
 git remote add origin https://github.com/onkarpatil272/Playbooks.git
 git branch -M main
 git push -u origin main
+git add .
+git status
+git log
+git pull origin main
+git remote add origin https://github.com/onkarpatil272/my-playbooks.git
+git branch -M main
+git push -u origin main
+git config --global user.name "omi"
+git config --global user.email "omi@gmail.com"
+ls
+git add allplaybooks
+git status
+git commit -m "my playbooks1"
+git push origin main
+git pull origin main
+git remote add origin https://github.com/onkarpatil272/My-Playbooks.git
+git branch -M main
+git push origin main
+git pull origin main
+ls
+git config pull.rebase false
+ls
+git pull origin main
+git push origin main
+git log --oneline
+git merge msin
+git push origin main
+git remote add origin 
+remote: Permission to onkarpatil272/my-playbooks.git denied to onkarpatil272.
+fatal: unable to access 'https://github.com/onkarpatil272/my-playbooks.git/': The requested URL returned error: 403
+[onkar@ip-172-31-9-51 ~]$ git remote add origin https://github.com/onkarpatil272/My-Playbooks.git
+remote: Permission to onkarpatil272/my-playbooks.git denied to onkarpatil272.
+fatal: unable to access 'https://github.com/onkarpatil272/my-playbooks.git/': The requested URL returned error: 403
+[onkar@ip-172-31-9-51 ~]$ git remote add origin https://github.com/onkarpatil272/My-Playbooks.git
+[onkar@ip-172-31-9-51 ~]$ git remote add origin git@github.com:onkarpatil272/central-repo.git
+git add origin git@github.com:onkarpatil272/central-repo.git
+git add origin https://github.com/onkarpatil272/central-repo.git
+git init
+git remote add https://github.com/onkarpatil272/central-repo.git
+git add .
+git commit -m "test playbooks"
+git push origin main
