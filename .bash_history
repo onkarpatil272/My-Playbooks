@@ -330,3 +330,135 @@ cat install_https.yml
 cat install_httpd_handler.yml
 ls
 cat tomcat_setup.yml
+cd setup-apache-role
+ls
+vi tasks/main.yml
+cd ,,
+cd ..
+ls
+ansible-playbook  setup_role.yml 
+git init
+which git
+git init
+mkdir allplaybooks
+l
+ls
+mv *.yml setup-apache-role  index.html
+mv *.yml setup-apache-role 
+ls
+cd allplaybooks
+;s
+ls
+cd setup-apache-role
+cd ..
+;s
+ls
+cd setup-apache-role
+ls
+mkdir playbooks
+ls
+mv *.yml playbooks
+ls
+cd playbooks
+ls
+cd ..
+ls
+mv playbook /onkar
+mv playbook ../onkar
+mv playbook ..
+mv playbook /home/onkar
+mv playbook /home/onkar/allplaybooks
+mv playbooks /home/onkar/allplaybooks
+ls
+cd ..
+ls
+cd allpalybooks
+cd allplaybooks
+ls
+cd ..
+git config --global user.name "onkar"
+git config --global user.email "onkar@gmail.com"
+ls
+cd allplaybooks
+ls
+cd playbooks
+ls
+cd ..
+ls
+mv setup-apache-role allplaybooks
+ls
+mv index.html allplaybooks
+ls
+rm -rf file1
+rm -rf file6
+cd allplaybooks
+ls
+mv setup-apache-role playbooks
+ls
+mv index.html  playbooks
+ls
+cd ..
+git add. 
+git add .
+git status
+git commit -m "my playbooks"
+ls
+cd setup-apache-role
+tree
+cp ../index.html files/
+tree
+cd ..
+vi setup_role.yml
+ansible-playbook setup_role.yml --check
+cd  setup-apache-role
+tree
+vi handler/main.yml
+tree
+vi handlers/main.yml
+vi tasks/main.yml
+cd ..
+ansible-playbook setup_role.yml --check
+cd  setup-apache-role
+vi tasks/main.yml
+cd ..
+ls
+ansible-playbook setup_role.yml --check
+cd  setup-apache-role
+vi tasks/main.yml
+vi handlers/main.yml
+cd ..
+ansile-playbook setup_role.yml
+ansible-playbook setup_role.yml
+ls
+ansible-playbook uninstall_httpd.yml
+cat uninstall_httpd.yml
+vi uninstall_httpd.yml
+ansible-playbook uninstall_httpd.yml
+vi uninstall_httpd.yml
+ansible-playbook uninstall_httpd.yml
+ls
+cd setup-apache-role
+vi tasks/main.yml
+vi handlers/main.yml
+cd ..
+ansible-playbook setup_role.yml
+vi setup_role.yml
+cd setup-apache-role
+vi tasks/main.yml
+cd ..
+ansible-playbook setup_role.yml
+cd ..\
+ls
+su - onkar
+ls
+git remote add origin https://github.com/onkarpatil272/my-playbooks.git
+git branch -M main
+git push -u origin main
+ls
+git remote add origin https://github.com/onkarpatil272/my-playbooks.git
+git add .
+git branch -M main
+git push -u origin main
+git remote add origin https://github.com/onkarpatil272/Playbooks.git
+git branch -M main
+git push -u origin main
